@@ -30,6 +30,7 @@ const TextArea = (props) => {
         ref={props.textareaRef}
       ></textarea>
       <button  onClick={handleCopy}>Copiar prompt</button>
+
     </div>
   );
 };
