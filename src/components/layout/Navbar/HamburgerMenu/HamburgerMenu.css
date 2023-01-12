@@ -1,5 +1,10 @@
 .menu-hamburguer {
     display: none;
+    margin-bottom: 10px;
+  }
+  .menu-hamburguer-btn {
+    background-color: #ffffff;
+    margin-bottom: 1px;
   }
   @media (max-width: 360px) {
     .navbar{

@@ -1,7 +1,5 @@
 .container {
   width: 100%;
-  
-  /* padding: 10px; */
   display: flex;
   justify-content: center;
   text-align: justify;
@@ -16,6 +14,9 @@
 
 }
 .container-img img {
+  margin-bottom: -90px;
+}
+.gif {
   margin-bottom: -90px;
 }
 .teste {
@@ -64,6 +65,9 @@
   }
 }
 @media (max-width: 428px) {
+  .container{
+    font-size: 14px;
+  }
   .container-img {
     width: 95%;
     text-align: center;

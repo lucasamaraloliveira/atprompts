@@ -13,7 +13,7 @@ function HamburgerMenu() {
     
     <div className='menu-hamburguer'>
       
-      <button onClick={toggleMenu}>
+      <button className='menu-hamburguer-btn' onClick={toggleMenu}>
         <span><img className='icon' src={Hamburguer} alt="" /> </span>
       </button>
       {menuOpen && (
