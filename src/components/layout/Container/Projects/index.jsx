@@ -12,50 +12,29 @@ function Projects() {
   return (
     <div>
       
-        <div>
+        <div className='prompts-align'>
             <h2 id='Prompts'>Prompts</h2>
-            <span className='contribuicao-span'>Contribuição de: <a target="_blank" href='https://github.com/lucasamaraloliveira'> @lucasamaral </a> complexidade: baixa </span>
-            <div className='container-projects'>
-             <div>
-                <h3> Crie um email</h3>
-                
-                <div>
+            <h3> Crie um E-MAIL</h3>
+            <span>Contribuição de: <a target="_blank" href='https://github.com/lucasamaraloliveira'> @lucasamaral </a> complexidade: baixa </span>
                 <TextArea 
                 text={text1}
                 textareaRef={textareaRef1}
                 onChange={e => setText1(e.target.value)} />
-                </div>
-              </div>
-            </div>
-            
-            
 
-            <span className='contribuicao-span'>Contribuição de: <a target="_blank" href='https://github.com/edurodrigues533'> @edurodrigues533 </a> complexidade: média </span>
-            <div className='container-projects'>
-             <div>
-                <h3> Configurar API em fastAPI</h3>
-                <div>
+              <h3> Configurar API em fastAPI</h3>
+              <span className='contribuicao-span'>Contribuição de: <a target="_blank" href='https://github.com/edurodrigues533'> @edurodrigues533 </a> complexidade: média </span>
                 <TextArea 
                 text={text2}
                 textareaRef={textareaRef2}
                 onChange={e => setText2(e.target.value)} />
-                </div>
-              </div>
-            </div>
 
-
-            <span className='contribuicao-span'>Contribuição de: <a target="_blank" href='https://github.com/lucasamaraloliveira'> @lucasamaral </a> complexidade: alta </span>
-            <div className='container-projects'>
-             <div>
                 <h3> Atuar como um contador de histórias</h3>
-                <div>
+                <span className='contribuicao-span'>Contribuição de: <a target="_blank" href='https://github.com/lucasamaraloliveira'> @lucasamaral </a> complexidade: alta </span>
                 <TextArea 
                 text={text3}
                 textareaRef={textareaRef3}
-                onChange={e => setText2(e.target.value)} />
-                </div>
-              </div>
-            </div>
+                onChange={e => setText3(e.target.value)} />
+
 
             </div>
     </div>

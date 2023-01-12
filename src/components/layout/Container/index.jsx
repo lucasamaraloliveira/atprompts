@@ -21,7 +21,7 @@ function Container() {
       //  src/assets/clipboard.mp4
       playing
       loop
-      width='700px'
+      width='100%'
       height='300px'
       />
           <Projects/>

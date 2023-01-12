@@ -29,9 +29,7 @@ const TextArea = (props) => {
         value={text}
         ref={props.textareaRef}
       ></textarea>
-      <div className="style-btn">
-        <button onClick={handleCopy}>Copiar prompt</button>
-      </div>
+      <button  onClick={handleCopy}>Copiar prompt</button>
     </div>
   );
 };

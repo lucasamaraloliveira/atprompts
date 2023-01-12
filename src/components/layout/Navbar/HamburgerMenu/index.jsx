@@ -18,9 +18,9 @@ function HamburgerMenu() {
       </button>
       {menuOpen && (
         <ul>
-          <a href="#"><li>Lucas Amaral</li></a>
-          <a href="#Project"><li>Projetos </li></a>
-          <a href="#Contact"><li>Contato</li></a>
+          <a href="#"><li>Início</li></a>
+          <a href="#About"><li>Sobre </li></a>
+          <a href="#Prompts"><li>Prompts</li></a>
         </ul>
       )}
     </div>
