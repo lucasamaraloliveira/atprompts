@@ -1,0 +1,39 @@
+import React, { useState } from "react";
+import "./Textarea.css";
+
+const TextArea = (props) => {
+  const [text, setText] = useState(props.text);
+
+  const handleCopy = () => {
+    /* Get the text field */
+    const copyText = props.textareaRef.current;
+
+    /* Select the text field */
+    copyText.select();
+
+    /* Copy the text inside the text field */
+    document.execCommand("copy");
+
+    /* Alert the copied text */
+    alert("Prompt copiado com sucesso! ");
+  };
+
+  return (
+    <div>
+      <textarea
+        name=""
+        id=""
+        cols="95"
+        rows="7"
+        onChange={(e) => setText(e.target.value)}
+        value={text}
+        ref={props.textareaRef}
+      ></textarea>
+      <div className="style-btn">
+        <button onClick={handleCopy}>Copiar prompt</button>
+      </div>
+    </div>
+  );
+};
+
+export default TextArea;

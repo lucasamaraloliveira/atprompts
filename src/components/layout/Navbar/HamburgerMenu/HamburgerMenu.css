@@ -1,0 +1,172 @@
+.menu-hamburguer {
+    display: none;
+  }
+  @media (max-width: 360px) {
+    .navbar{
+        display: none;
+    }
+    .menu-hamburguer {
+        display: block;
+        background-color: #333; /*Cor de fundo do componente*/
+        color: #fff; /* Cor do texto e do ícone */
+        font-size: 18px; /* Tamanho da fonte */
+      }      
+      .menu-hamburguer a {
+        color: #ffffff; /* Cor do texto dos links */
+        text-decoration: none; /* Remove a sublinhado dos links */
+        font-size: 18px; /* Tamanho da fonte dos links */
+        margin-bottom: 10px;
+      }
+      
+      .menu-hamburguer a:hover {
+        color: #ccc; /* Cor do texto dos links quando o mouse estiver sobre eles */
+      }
+      
+      .menu-hamburguer .icon {
+        margin-left: -5px;
+        margin-bottom: -5px;
+        display: inline-block; /* Exibe o ícone como um bloco inline */
+        width: 40px; /* Largura do ícone */
+        height: 40px; /* Altura do ícone */
+        cursor: pointer; /* Altera o cursor do mouse para um ponteiro quando o mouse estiver sobre o ícone */
+      }
+      
+      .menu-hamburguer  ul {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       line-height: 1.7;
+      }
+  }
+
+  @media (max-width: 390px) {
+    .navbar{
+        display: none;
+    }
+    .menu-hamburguer {
+        display: block;
+        background-color: #333; /*Cor de fundo do componente*/
+        color: #fff; /* Cor do texto e do ícone */
+        font-size: 18px; /* Tamanho da fonte */
+      }
+
+      .menu-hamburguer button {
+       padding:-50px ;
+      }
+
+      
+      .menu-hamburguer a {
+        color: #ffffff; /* Cor do texto dos links */
+        text-decoration: none; /* Remove a sublinhado dos links */
+        font-size: 18px; /* Tamanho da fonte dos links */
+        margin-bottom: 10px;
+      }
+      
+      .menu-hamburguer a:hover {
+        color: #ccc; /* Cor do texto dos links quando o mouse estiver sobre eles */
+      }
+      
+      .menu-hamburguer .icon {
+        margin-left: -5px;
+        margin-bottom: -5px;
+        display: inline-block; /* Exibe o ícone como um bloco inline */
+        width: 40px; /* Largura do ícone */
+        height: 40px; /* Altura do ícone */
+        cursor: pointer; /* Altera o cursor do mouse para um ponteiro quando o mouse estiver sobre o ícone */
+      }
+      
+      .menu-hamburguer  ul {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       line-height: 1.7;
+      }
+  }
+  @media (max-width: 415px) {
+    .navbar{
+        display: none;
+    }
+    .menu-hamburguer {
+        display: block;
+        background-color: #333; /*Cor de fundo do componente*/
+        color: #fff; /* Cor do texto e do ícone */
+        font-size: 18px; /* Tamanho da fonte */
+      }
+
+      .menu-hamburguer button {
+       padding:-50px ;
+      }
+
+      
+      .menu-hamburguer a {
+        color: #ffffff; /* Cor do texto dos links */
+        text-decoration: none; /* Remove a sublinhado dos links */
+        font-size: 18px; /* Tamanho da fonte dos links */
+        margin-bottom: 10px;
+      }
+      
+      .menu-hamburguer a:hover {
+        color: #ccc; /* Cor do texto dos links quando o mouse estiver sobre eles */
+      }
+      
+      .menu-hamburguer .icon {
+        margin-left: -5px;
+        margin-bottom: -5px;
+        display: inline-block; /* Exibe o ícone como um bloco inline */
+        width: 40px; /* Largura do ícone */
+        height: 40px; /* Altura do ícone */
+        cursor: pointer; /* Altera o cursor do mouse para um ponteiro quando o mouse estiver sobre o ícone */
+      }
+      
+      .menu-hamburguer  ul {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       line-height: 1.7;
+      }
+    
+  }
+
+  @media (max-width: 428px) {
+    .navbar{
+      display: none;
+  }
+  .menu-hamburguer {
+      display: block;
+      background-color: #333; /*Cor de fundo do componente*/
+      color: #fff; /* Cor do texto e do ícone */
+      font-size: 18px; /* Tamanho da fonte */
+    }
+
+    .menu-hamburguer button {
+     padding:-50px ;
+    }
+
+    
+    .menu-hamburguer a {
+      color: #ffffff; /* Cor do texto dos links */
+      text-decoration: none; /* Remove a sublinhado dos links */
+      font-size: 18px; /* Tamanho da fonte dos links */
+      margin-bottom: 10px;
+    }
+    
+    .menu-hamburguer a:hover {
+      color: #ccc; /* Cor do texto dos links quando o mouse estiver sobre eles */
+    }
+    
+    .menu-hamburguer .icon {
+      margin-left: -5px;
+      margin-bottom: -5px;
+      display: inline-block; /* Exibe o ícone como um bloco inline */
+      width: 40px; /* Largura do ícone */
+      height: 40px; /* Altura do ícone */
+      cursor: pointer; /* Altera o cursor do mouse para um ponteiro quando o mouse estiver sobre o ícone */
+    }
+    
+    .menu-hamburguer  ul {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     line-height: 1.7;
+    }
+  }

@@ -1,0 +1,43 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   index.html
+#	new file:   package.json
+#	new file:   public/favicon.svg
+#	new file:   public/vite.svg
+#	new file:   src/App.css
+#	new file:   src/App.jsx
+#	new file:   src/assets/arrow.png
+#	new file:   src/assets/arrow.svg
+#	new file:   src/assets/avatar.png
+#	new file:   src/assets/avatar.svg
+#	new file:   src/assets/clipboard.mp4
+#	new file:   src/assets/hamburger.png
+#	new file:   src/assets/ia.svg
+#	new file:   src/assets/projects.svg
+#	new file:   src/assets/react.svg
+#	new file:   src/assets/right-arrow.png
+#	new file:   src/components/Textarea/Textarea.css
+#	new file:   src/components/Textarea/index.jsx
+#	new file:   src/components/layout/Container/Container.css
+#	new file:   src/components/layout/Container/Projects/Projects.css
+#	new file:   src/components/layout/Container/Projects/index.jsx
+#	new file:   src/components/layout/Container/index.jsx
+#	new file:   src/components/layout/Footer/Footer.css
+#	new file:   src/components/layout/Footer/index.jsx
+#	new file:   src/components/layout/Navbar/HamburgerMenu/HamburgerMenu.css
+#	new file:   src/components/layout/Navbar/HamburgerMenu/index.jsx
+#	new file:   src/components/layout/Navbar/Navbar.css
+#	new file:   src/components/layout/Navbar/index.jsx
+#	new file:   src/index.css
+#	new file:   src/main.jsx
+#	new file:   vite.config.js
+#	new file:   yarn.lock
+#

@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300;400;700&display=swap');
