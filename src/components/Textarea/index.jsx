@@ -23,14 +23,13 @@ const TextArea = (props) => {
       <textarea
         name=""
         id=""
-        cols="95"
-        rows="7"
+        cols="80"
+        rows="8"
         onChange={(e) => setText(e.target.value)}
         value={text}
         ref={props.textareaRef}
       ></textarea>
-      <button  onClick={handleCopy}>Copiar prompt</button>
-
+      <button onClick={handleCopy}>Copiar prompt</button>
     </div>
   );
 };
