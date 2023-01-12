@@ -3,7 +3,7 @@ import "./Container.css";
 import IA from "../../../assets/ia.svg";
 import GIF_IA from "../../../assets/ia.gif";
 import Projects from "./Projects";
-import ReactPlayer from "react-player";
+
 
 function Container() {
   return (

@@ -17,6 +17,8 @@ textarea {
   margin-top: 15px;
   resize: none;
   line-height: 1.5rem;
+  max-Width: 500px;
+  min-Width: 300px;
 }
 textarea:hover {
   transition: 0.6s;
