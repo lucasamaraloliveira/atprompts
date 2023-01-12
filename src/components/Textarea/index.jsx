@@ -28,6 +28,7 @@ const TextArea = (props) => {
         onChange={(e) => setText(e.target.value)}
         value={text}
         ref={props.textareaRef}
+        style={{ width: "100%", maxWidth: "500px", minWidth: "300px" }}
       ></textarea>
       <button onClick={handleCopy}>Copiar prompt</button>
     </div>
