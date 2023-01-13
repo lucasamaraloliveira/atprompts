@@ -40,6 +40,16 @@ footer {
     }
 
 }
+@media (max-width: 1366px) {
+
+    .footer-color {
+        padding: 1px ;
+    }
+    .social-media {
+        margin-right: 27%;
+    }
+
+}
 
 @media (max-width: 1280px) {
 
