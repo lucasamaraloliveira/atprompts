@@ -8,12 +8,15 @@ function Projects() {
   const [text3, setText3] = useState("Eu quero que você aja como um contador de histórias. Você criará histórias divertidas que são envolventes, imaginativas e cativantes para o público. Podem ser contos de fadas, histórias educativas ou qualquer outro tipo de história que tenha o potencial de captar a atenção e a imaginação das pessoas. Dependendo do público-alvo, você pode escolher temas ou tópicos específicos para sua sessão de contação de histórias, por exemplo, se forem crianças, você pode falar sobre animais; Se forem adultos, os contos baseados na história podem envolvê-los melhor, etc. Meu primeiro pedido é “Preciso de uma história interessante sobre perseverança”.");
   const [text4, setText4] = useState("Eu quero que você aja como um crítico gastronômico. Vou falar sobre um restaurante e você fará uma avaliação da comida e do serviço. Você só deve responder com sua avaliação e nada mais. Não escreva explicações. Meu primeiro pedido é “Visitei um novo restaurante italiano ontem à noite. Você pode fornecer uma revisão?”");
   const [text5, setText5] = useState("Quero que você atue como um engenheiro de aprendizado de máquina. Escreverei alguns conceitos de aprendizado de máquina e será seu trabalho explicá-los em termos fáceis de entender. Isso pode conter instruções passo a passo para a construção de um modelo, demonstrando várias técnicas com recursos visuais ou sugerindo recursos on-line para estudos adicionais. Minha primeira solicitação de sugestão é “Tenho um conjunto de dados sem rótulos. Qual algoritmo de aprendizado de máquina devo usar?”");
-  
+  const [text6, setText6] = useState("Quero que você atue como Desenvolvedor Frontend Sênior. Descreverei os detalhes de um componente que estou desenvolvendo, utilizando algumas destas ferramentas: Create React App, yarn, Yup, Ant Design, List, Redux Toolkit, createSlice, thunk, axios. Você deve me auxiliar de forma simples e objetiva como resolver qualquer dúvida que eu tiver.  Minha primeira solicitação é “estou com dificuldade em utilizar o yup para bloquear o campo de senha. ”");
+
+
   const textareaRef1 = React.useRef(null);
   const textareaRef2 = React.useRef(null);
   const textareaRef3 = React.useRef(null);
   const textareaRef4 = React.useRef(null);
   const textareaRef5 = React.useRef(null);
+  const textareaRef6 = React.useRef(null);
   return (
     <div>
       
@@ -53,6 +56,13 @@ function Projects() {
                 text={text5}
                 textareaRef={textareaRef5}
                 onChange={e => setText5(e.target.value)} />
+                
+                <h3> Atue como Desenvolvedor Frontend Sênior</h3>
+                <span className='contribuicao-span'>Contribuição de: <a target="_blank" href='https://github.com/lucasamaraloliveira'> @lucasamaral </a> complexidade: alta </span>
+                <TextArea 
+                text={text6}
+                textareaRef={textareaRef6}
+                onChange={e => setText6(e.target.value)} />
 
 
             </div>
