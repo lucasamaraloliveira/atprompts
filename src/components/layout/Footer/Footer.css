@@ -30,6 +30,7 @@ footer {
     color: #9a9898;
     text-align: center;
     font-size: 12px;
+    margin-bottom: 1rem;
 }
 @media (max-width: 1920px) {
     .footer-color {
