@@ -9,6 +9,7 @@ function Projects() {
   const [text4, setText4] = useState("Eu quero que você aja como um crítico gastronômico. Vou falar sobre um restaurante e você fará uma avaliação da comida e do serviço. Você só deve responder com sua avaliação e nada mais. Não escreva explicações. Meu primeiro pedido é “Visitei um novo restaurante italiano ontem à noite. Você pode fornecer uma revisão?”");
   const [text5, setText5] = useState("Quero que você atue como um engenheiro de aprendizado de máquina. Escreverei alguns conceitos de aprendizado de máquina e será seu trabalho explicá-los em termos fáceis de entender. Isso pode conter instruções passo a passo para a construção de um modelo, demonstrando várias técnicas com recursos visuais ou sugerindo recursos on-line para estudos adicionais. Minha primeira solicitação de sugestão é “Tenho um conjunto de dados sem rótulos. Qual algoritmo de aprendizado de máquina devo usar?”");
   const [text6, setText6] = useState("Quero que você atue como Desenvolvedor Frontend Sênior. Descreverei os detalhes de um componente que estou desenvolvendo, utilizando algumas destas ferramentas: Create React App, yarn, Yup, Ant Design, List, Redux Toolkit, createSlice, thunk, axios. Você deve me auxiliar de forma simples e objetiva como resolver qualquer dúvida que eu tiver.  Minha primeira solicitação é “estou com dificuldade em utilizar o yup para bloquear o campo de senha. ”");
+  const [text7, setText7] = useState("Eu quero que você atue como um gerador de mensagens de commit. Fornecerei informações sobre a tarefa e o prefixo do código da tarefa e gostaria que você gerasse uma mensagem de commit apropriada usando o formato de conventional commit em inglês. Não escreva nenhuma explicação ou outras palavras, apenas responda com a mensagem de confirmação. Meu primeiro pedido é “ajuste de rodapé.”");
 
 
   const textareaRef1 = React.useRef(null);
@@ -17,6 +18,7 @@ function Projects() {
   const textareaRef4 = React.useRef(null);
   const textareaRef5 = React.useRef(null);
   const textareaRef6 = React.useRef(null);
+  const textareaRef7 = React.useRef(null);
   return (
     <div>
       
@@ -44,7 +46,7 @@ function Projects() {
                 onChange={e => setText3(e.target.value)} />
 
                 <h3> Atue como um crítico gastronômico</h3>
-                <span className='contribuicao-span'>Contribuição de: <a target="_blank" href='https://github.com/lucasamaraloliveira'> @lucasamaral </a> complexidade: alta </span>
+                <span className='contribuicao-span'>Contribuição de: <a target="_blank" href='https://github.com/lucasamaraloliveira'> @lucasamaral </a> complexidade: baixa </span>
                 <TextArea 
                 text={text4}
                 textareaRef={textareaRef4}
@@ -63,6 +65,13 @@ function Projects() {
                 text={text6}
                 textareaRef={textareaRef6}
                 onChange={e => setText6(e.target.value)} />
+
+                <h3> Gerador de Conventional Commit</h3>
+                <span className='contribuicao-span'>Contribuição de: <a target="_blank" href='https://github.com/lucasamaraloliveira'> @lucasamaral </a> complexidade: baixa </span>
+                <TextArea 
+                text={text7}
+                textareaRef={textareaRef7}
+                onChange={e => setText7(e.target.value)} />
 
 
             </div>
