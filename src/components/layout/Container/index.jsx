@@ -9,7 +9,7 @@ function Container() {
   return (
     <div className="container">
       <div className="container-img">
-        <img className="teste" src={IA} alt="ia" />
+        <img className="logo-align" src={IA} alt="ia" />
         <h2 id="About">ATPrompts</h2>
         <p>
           <b>ATPrompts</b> foi projetado para melhorar a experiência do usuário

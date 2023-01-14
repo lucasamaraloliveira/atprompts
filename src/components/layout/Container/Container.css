@@ -19,7 +19,7 @@
 .gif {
   margin-bottom: -90px;
 }
-.teste {
+.logo-align {
   width: 4rem;
 }
 
@@ -71,5 +71,12 @@
   .container-img {
     width: 95%;
     text-align: center;
+  }
+  .gif {
+    margin-top: 2.4rem;
+    transform: scale(1.8);
+  }
+  .logo-align {
+    margin-left: 40%;
   }
 }
