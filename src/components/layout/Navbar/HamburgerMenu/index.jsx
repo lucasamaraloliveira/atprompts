@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import './HamburgerMenu.css'
-import Hamburguer from '../../../../assets/hamburger.png'
+import Hamburguer from '../../../../assets/cardapio.png'
 
 function HamburgerMenu() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+  }
+
+  const handleItemClick = () => {
+    toggleMenu();
   }
 
   return (
@@ -18,9 +22,9 @@ function HamburgerMenu() {
       </button>
       {menuOpen && (
         <ul>
-          <a href="#"><li>Início</li></a>
-          <a href="#About"><li>Sobre </li></a>
-          <a href="#Prompts"><li>Prompts</li></a>
+          <a href="#" onClick={handleItemClick}><li>Início</li></a>
+          <a href="#About"onClick={handleItemClick}><li>Sobre </li></a>
+          <a href="#Prompts" onClick={handleItemClick}><li>Prompts</li></a>
         </ul>
       )}
     </div>
