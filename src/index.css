@@ -9,6 +9,35 @@
   
 }
 
+.top-button {
+  position: fixed; /* fixa o botão na tela */
+  bottom: 40px; /* posiciona o botão 20px a partir do fundo */
+  right: 40px; /* posiciona o botão 20px a partir da direita */
+  background-color: #343541; /* cor de fundo do botão */
+  color: #fff; /* cor do texto do botão */
+  padding: 10px 15px; /* espaçamento interno do botão */
+  border-radius: 5px; /* borda arredondada do botão */
+  font-size: 16px; /* tamanho da fonte do texto do botão */
+  cursor: pointer; /* cursor do mouse muda para um ponteiro quando o mouse estiver sobre o botão */
+  z-index: 999; /* garante que o botão esteja sempre acima do conteúdo da página */
+  max-width: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.top-button:hover {
+  background-color: #444; /* muda a cor de fundo quando o mouse estiver sobre o botão */
+}
+
+.btn-topo {
+  max-width: 100%
+}
+
+.hide-on-load {
+  display: none;
+}
+
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300;400;700&display=swap');
