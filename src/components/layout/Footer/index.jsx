@@ -8,7 +8,10 @@ function Footer() {
         <h3 id="Contact">Gostaria de contribuir? entre em contato.</h3>
         <ul>
           <li>
-            <a href="https://api.whatsapp.com/send?phone=5521935007997&text=Olá, me interessei pelo seu trabalho, gostaria de contribuir, segue prompt e @:">
+            <a
+              target="_blank"
+              href="https://api.whatsapp.com/send?phone=5521935007997&text=Olá, me interessei pelo seu trabalho, gostaria de contribuir, segue prompt e @:"
+            >
               WhatsApp
             </a>
           </li>
