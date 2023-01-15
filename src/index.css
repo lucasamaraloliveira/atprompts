@@ -4,9 +4,8 @@
   box-sizing: border-box;
   border: none;
   list-style: none;
-  font-family: 'Red Hat Display', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  
+  font-family: "Red Hat Display", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .top-button {
@@ -23,6 +22,7 @@
   max-width: 100%;
   width: 50px;
   height: 50px;
+  border-radius: 100%;
 }
 
 .top-button:hover {
@@ -30,14 +30,7 @@
 }
 
 .btn-topo {
-  max-width: 100%
+  max-width: 100%;
 }
 
-.hide-on-load {
-  display: none;
-}
-
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300;400;700&display=swap");
