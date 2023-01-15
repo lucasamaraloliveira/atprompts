@@ -10,7 +10,9 @@ function App() {
   const topRef = useRef(null);
 
   const handleClick = () => {
-    topRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (topRef.current) {
+      topRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   };
 
   return (
