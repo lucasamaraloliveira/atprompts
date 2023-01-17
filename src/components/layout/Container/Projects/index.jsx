@@ -86,7 +86,7 @@ function Projects() {
                 textareaRef={textareaRef8}
                 onChange={e => setText8(e.target.value)} />
 
-            <h3> Atue como gerador dep Prompt</h3>
+            <h3> Atue como gerador de Prompt</h3>
             <span>Contribuição de: <a target="_blank" href='https://github.com/lucasamaraloliveira'> @lucasamaral </a> complexidade: alta </span>
                 <TextArea 
                 text={text9}
