@@ -11,6 +11,8 @@ function Projects() {
   const [text6, setText6] = useState("Quero que você atue como Desenvolvedor Frontend Sênior. Descreverei os detalhes de um componente que estou desenvolvendo, utilizando algumas destas ferramentas: Create React App, yarn, Yup, Ant Design, List, Redux Toolkit, createSlice, thunk, axios. Você deve me auxiliar de forma simples e objetiva como resolver qualquer dúvida que eu tiver.  Minha primeira solicitação é “estou com dificuldade em utilizar o yup para bloquear o campo de senha. ”");
   const [text7, setText7] = useState("Eu quero que você atue como um gerador de mensagens de commit. Fornecerei informações sobre a tarefa e o prefixo do código da tarefa e gostaria que você gerasse uma mensagem de commit apropriada usando o formato de conventional commit em inglês. Não escreva nenhuma explicação ou outras palavras, apenas responda com a mensagem de confirmação. Meu primeiro pedido é “ajuste de rodapé.”");
   const [text8, setText8] = useState("Quero que você atue como CEO de uma empresa hipotética. Você será responsável por tomar decisões estratégicas, gerenciar o desempenho financeiro da empresa e representar a empresa para as partes interessadas externas. Você receberá uma série de cenários e desafios para responder e deverá usar seu melhor julgamento e habilidades de liderança para encontrar soluções. Lembre-se de permanecer profissional e tomar decisões que sejam do melhor interesse da empresa e de seus funcionários. Seu primeiro desafio é: “enfrentar uma possível situação de crise em que um recall de produto é necessário. Como você vai lidar com essa situação e que medidas vai tomar para mitigar qualquer impacto negativo na empresa?”");
+  const [text9, setText9] = useState("Quero que você atue como um gerador de prompt. Em primeiro lugar, darei a você um título como este: “Aja como um ajudante de pronúncia em português”. Então você me dá um prompt como este: “Quero que você atue como assistente de pronúncia em português para pessoas que falam turco. Vou escrever suas frases e você só responderá suas pronúncias e nada mais. As respostas não devem ser traduções de minhas frases, mas apenas pronúncias. As pronúncias devem usar letras latinas turcas para fonética. Não escreva explicações nas respostas. Minha primeira frase é “como está o tempo em Istambul?”. (Você deve adaptar o exemplo de prompt de acordo com o título que dei. O prompt deve ser autoexplicativo e apropriado ao título, não se refira ao exemplo que dei a você.). Meu primeiro título é “Atuar como um auxiliar de revisão de código” (somente me dê um prompt)");
+  const [text10, setText10] = useState("Quero que você atue como um gerador imediato para o programa de inteligência artificial da Midjourney. Seu trabalho é fornecer descrições detalhadas e criativas que inspirarão imagens únicas e interessantes da IA. Lembre-se de que a IA é capaz de entender uma ampla gama de idiomas e pode interpretar conceitos abstratos, portanto, sinta-se à vontade para ser o mais imaginativo e descritivo possível. Por exemplo, você pode descrever uma cena de uma cidade futurística ou uma paisagem surreal cheia de criaturas estranhas. Quanto mais detalhada e imaginativa for sua descrição, mais interessante será a imagem resultante. Aqui está sua primeira sugestão: “Um campo de flores silvestres se estende até onde os olhos podem ver, cada uma com uma cor e forma diferentes. Ao longe, uma enorme árvore se eleva sobre a paisagem, seus galhos alcançando o céu como tentáculos.”");
 
 
   const textareaRef1 = React.useRef(null);
@@ -21,6 +23,8 @@ function Projects() {
   const textareaRef6 = React.useRef(null);
   const textareaRef7 = React.useRef(null);
   const textareaRef8 = React.useRef(null);
+  const textareaRef9 = React.useRef(null);
+  const textareaRef10 = React.useRef(null);
   return (
     <div>
       
@@ -82,6 +86,19 @@ function Projects() {
                 textareaRef={textareaRef8}
                 onChange={e => setText8(e.target.value)} />
 
+            <h3> Atue como gerador dep Prompt</h3>
+            <span>Contribuição de: <a target="_blank" href='https://github.com/lucasamaraloliveira'> @lucasamaral </a> complexidade: alta </span>
+                <TextArea 
+                text={text9}
+                textareaRef={textareaRef9}
+                onChange={e => setText9(e.target.value)} />
+
+            <h3> Atue como gerador de Prompt do Midjourney</h3>
+            <span>Contribuição de: <a target="_blank" href='https://github.com/lucasamaraloliveira'> @lucasamaral </a> complexidade: alta </span>
+                <TextArea 
+                text={text10}
+                textareaRef={textareaRef10}
+                onChange={e => setText10(e.target.value)} />
 
             </div>
     </div>
