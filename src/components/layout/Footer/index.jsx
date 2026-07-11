@@ -10,7 +10,7 @@ function Footer() {
           <li>
             <a
               target="_blank"
-              href="https://api.whatsapp.com/send?phone=5521935007997&text=Olá, me interessei pelo seu trabalho, gostaria de contribuir, segue prompt e @:"
+              href="https://api.whatsapp.com/send?phone=5521969630415&text=Olá, me interessei pelo seu trabalho, gostaria de contribuir, segue prompt e @:"
             >
               WhatsApp
             </a>

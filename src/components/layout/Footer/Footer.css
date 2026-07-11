@@ -1,158 +1,75 @@
 .footer-color {
-    /* background-color: blueviolet; */
-    color:#202020;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-    
+  border-top: 1px solid var(--border-color);
+  background-color: rgba(22, 28, 45, 0.4);
+  color: var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 1.5rem 30px;
+  width: 100%;
+}
+
+/* Specific background adjustment for light theme */
+:root.light-theme .footer-color {
+  background-color: rgba(241, 245, 249, 0.9);
 }
 
 .social-media {
-    /* background-color: gold;   */
-    max-width: 100%;
-    margin-right: 14%;
-    padding-bottom: 1rem;
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-media h3 {
+  font-family: var(--font-title);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
 }
 
 .social-media ul {
-    width: 100%;
-    /* background-color: aqua; */
-    padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  padding: 0;
 }
 
-.social-media a{
-    color: #000;
-    
+.social-media a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  background-color: #25d366; /* WhatsApp brand color */
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.social-media a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.45);
+  opacity: 0.95;
 }
 
 footer {
-    color: #9a9898;
-    text-align: center;
-    font-size: 12px;
-    margin-bottom: 1rem;
-}
-@media (max-width: 1920px) {
-    .footer-color {
-        padding: 1px ;
-    }
-    .social-media {
-        margin-right: 19%;
-    }
-
-}
-@media (max-width: 1366px) {
-
-    .footer-color {
-        padding: 1px ;
-    }
-    .social-media {
-        margin-right: 28%;
-    }
-
+  color: var(--text-muted);
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 10px;
 }
 
-@media (max-width: 1280px) {
-
-    .footer-color {
-        padding: 1px ;
-    }
-    .social-media {
-        margin-right: 25%;
-    }
-
-}
-@media (max-width: 1114px) {
-
-    .footer-color {
-        padding: 1px ;
-    }
-    .social-media {
-        margin-right: 32%;
-    }
-
+footer b {
+  color: var(--text-secondary);
 }
 
-@media (max-width: 884px) {
-
-    .footer-color {
-        padding: 1px ;
-    }
-    .social-media {
-        margin-right: 42%;
-    }
-
-}
-
-@media (max-width: 835px) {
-
-    .footer-color {
-        padding: 1px ;
-    }
-    .social-media {
-        margin-right: 44%;
-    }
-
-}
-
-@media (max-width: 800px) {
-
-    .footer-color {
-        padding: 1px ;
-    }
-    .social-media {
-        margin-right: 45%;
-    }
-
-}
-
-@media (max-width:768px) {
-    .footer-color {
-        padding: 1px ;
-    }
-    .social-media {
-        margin-right: 47%;
-    } 
-}
-@media (max-width:428px){
-    .social-media {
-        width: 400px;
-        text-align: center;
-        margin-left: 200px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;        
-    }
-}
-
-
-@media (max-width: 415px) {
-    .social-media {
-        width: 400px;
-        text-align: center;
-        margin-left: 190px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;        
-    }
-}
-@media (max-width: 360px) {
-    .social-media {
-        width: 400px;
-        text-align: center;
-        margin-left: 170px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;        
-    }
-}
-@media (max-width: 320px) {
-    .social-media {
-        width: 400px;
-        text-align: center;
-        margin-left: 150px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;        
-    }
+:root.light-theme footer b {
+  color: var(--text-primary);
 }
